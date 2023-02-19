@@ -6,17 +6,17 @@
            revision="eleven"/>
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="Redmi-MT6768" revision="lineage-18.1"/>
-  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="Redmi-MT6768" revision="lineage-18.1"/>
+  <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="Redmi-MT6768" revision="lineage-18.1" clone-depth="1"/>
+  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="Redmi-MT6768" revision="lineage-18.1" clone-depth="1"/>
  
  <!-- Kernel -->
-  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="Redmi-MT6768" revision="twelve"/>
+  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="Redmi-MT6768" revision="twelve" clone-depth="1"/>
 
  <!-- Vendor Tree -->
-  <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="Redmi-MT6768"/>
+  <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="Redmi-MT6768" clone-depth="1"/>
   
  <!-- Extras -->
-  <project path="device/mediatek/sepolicy_vndr" name="PixelExperience/device_mediatek_sepolicy_vndr" remote="github" revision="eleven"/>
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master"/>
+  <project path="device/mediatek/sepolicy_vndr" name="PixelExperience/device_mediatek_sepolicy_vndr" remote="github" revision="eleven" clone-depth="1"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>
 
 </manifest>
