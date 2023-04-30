@@ -2,6 +2,9 @@
 <manifest>
   
 <remote name="git" fetch="https://github.com"/>
+<remote name="clang" fetch="https://gitlab.com"/>
+
+
 
 <!-- Device Trees -->
   <project path="device/xiaomi/ginkgo" name="orkunsdumps/android_device_xiaomi_ginkgo" remote="git" revision="LMO" clone-depth="1" />
